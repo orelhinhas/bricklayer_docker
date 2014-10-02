@@ -1,0 +1,27 @@
+Origin: Your Debian Repository
+Label: Debian repository
+Codename: stable
+Architectures: amd64 i386 source
+Components: main
+Description: Your APT Repository
+DebOverride: override.stable
+DscOverride: override.stable
+
+Origin: Your Repository
+Label: Debian repository
+Codename: testing
+Architectures: amd64 i386 source
+Components: main
+Description: Your APT Repository
+DebOverride: override.testing
+DscOverride: override.testing
+
+Origin: Your Debian Repository
+Label: Debian repository
+Codename: unstable
+Architectures: amd64 i386 source
+Components: main
+Description: Your APT Repository
+DebOverride: override.unstable
+DscOverride: override.unstable
+
